@@ -1,0 +1,24 @@
+{
+  "name": "douban",
+  "version": "1.0.0",
+  "description": "movie list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart":"npm install",
+    "start":"http-server -p 7080 -o" 
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohsuper/douban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohsuper/douban/issues"
+  },
+  "homepage": "https://github.com/ohsuper/douban#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
